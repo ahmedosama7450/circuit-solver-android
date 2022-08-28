@@ -1,0 +1,49 @@
+<resources>
+
+    <!--general-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--saved circuits-->
+    <style name="SavedCircuitTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/saved_circuits_title_bottom_margin</item>
+        <item name="android:background">@color/saved_circuits_title_background_color</item>
+        <item name="android:padding">@dimen/saved_circuits_title_padding</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+        <item name="android:textColor">@color/saved_circuits_title_color</item>
+        <item name="android:textSize">@dimen/saved_circuits_title_text_size</item>
+    </style>
+
+    <!--circuit tools-->
+    <style name="CircuitTool">
+        <item name="android:layout_width">@dimen/circuit_tool_image_width</item>
+        <item name="android:layout_height">@dimen/circuit_tool_image_height</item>
+        <item name="android:layout_margin">@dimen/circuit_tool_margin</item>
+        <item name="android:padding">@dimen/circuit_tool_image_padding</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@color/circuit_tool_background_color</item>
+    </style>
+
+    <style name="CircuitTool.Separator">
+        <item name="android:layout_width">@dimen/circuit_tools_separator_width</item>
+        <item name="android:layout_height">@dimen/circuit_tools_separator_height</item>
+        <item name="android:background">@color/circuit_tool_separator_color</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+</resources>

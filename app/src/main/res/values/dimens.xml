@@ -1,0 +1,28 @@
+<resources>
+    <!--general-->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dimen8dp">8dp</dimen>
+    <dimen name="dimen16dp">16dp</dimen>
+    <dimen name="dimen32dp">16dp</dimen>
+    <dimen name="dimen64dp">16dp</dimen>
+    <dimen name="main_activity_padding">@dimen/dimen8dp</dimen>
+
+    <!--saved circuits-->
+    <dimen name="saved_circuits_title_text_size">20sp</dimen>
+    <dimen name="saved_circuits_title_bottom_margin">@dimen/dimen8dp</dimen>
+    <dimen name="saved_circuits_title_padding">@dimen/dimen8dp</dimen>
+    <dimen name="saved_circuit_image_width">110dp</dimen>
+    <dimen name="saved_circuit_image_height">110dp</dimen>
+    <dimen name="saved_circuit_name_text_size">20sp</dimen>
+    <dimen name="saved_circuits_inner_margin">@dimen/dimen8dp</dimen>
+    <dimen name="saved_circuits_bottom_margin">@dimen/dimen8dp</dimen>
+
+    <!--circuit tools-->
+    <dimen name="circuit_tool_image_width">85dp</dimen>
+    <dimen name="circuit_tool_image_height">40dp</dimen>
+    <dimen name="circuit_tool_image_padding">5dp</dimen>
+    <dimen name="circuit_tool_margin">@dimen/dimen8dp</dimen>
+    <dimen name="circuit_tools_separator_width">2dp</dimen>
+    <dimen name="circuit_tools_separator_height">45dp</dimen>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryLight">#6d6d6d</color>
+    <color name="colorPrimaryDark">#1b1b1b</color>
+    <color name="colorAccent">#263238</color>
+    <color name="colorAccentLight">#4f5b62</color>
+    <color name="colorAccentDark">#000a12</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="textColorAccent">#ffffff</color>
+
+    <color name="main_activity_background_color">@android:color/transparent</color>
+
+    <!--saved circuits-->
+    <color name="saved_circuits_title_color">@android:color/white</color>
+    <color name="saved_circuits_title_background_color">@color/colorAccent</color>
+    <color name="saved_circuits_background_color">@android:color/transparent</color>
+    <color name="saved_circuit_name_color">@color/colorAccent</color>
+    <color name="saved_circuit_item_background_color">@android:color/transparent</color>
+    <color name="saved_circuit_item_background_color_clicked">@color/colorAccent</color>
+
+    <!--circuit tools-->
+    <color name="circuit_tools_background_color">@color/colorPrimary</color>
+    <color name="circuit_tool_background_color">@color/colorAccent</color>
+    <color name="circuit_tool_background_color_selected">@color/colorAccentLight</color>
+    <color name="circuit_tool_separator_color">#696969</color>
+
+</resources>

@@ -1,0 +1,53 @@
+<resources>
+    <!--general-->
+    <string name="app_name">Circuit Solver</string>
+    <string name="title_activity_circuit">Create Circuit</string>
+    <string name="default_text" translatable="false">Just Text</string>
+
+    <!--menu-->
+    <string name="action_settings">Settings</string>
+
+    <!--circuit menu-->
+    <string name="action_run">Run</string>
+    <string name="action_show_simulation">Simulates</string>
+
+    <!--create dialog-->
+    <string name="new_circuit_dialog_hint">Name</string>
+    <string name="new_circuit_dialog_title">New Circuit</string>
+    <string name="new_circuit_dialog_create">Create</string>
+    <string name="new_circuit_dialog_cancel">Cancel</string>
+
+    <!--saved circuits-->
+    <string name="saved_circuit_image_desc">Circuit Item</string>
+    <string name="saved_circuits_title">Circuits</string>
+    <string name="favourite_circuits_title">Favourites</string>
+
+    <!--circuit tools-->
+    <string name="circuit_tool_image_desc">Selector</string>
+
+    <!--circuit view-->
+    <string name="circuit_view_properties_menu_connector_title">Connector Properties</string>
+    <string name="circuit_view_properties_menu_voltameter_title">Connector Properties</string>
+    <string name="circuit_view_properties_menu_turn_on">Turn On</string>
+    <string name="circuit_view_properties_menu_turn_off">Turn Off</string>
+    <string name="circuit_view_properties_menu_add_voltameter">Add Voltameter</string>
+    <string name="circuit_view_properties_menu_remove_voltameter">Remove Voltameter</string>
+    <string name="circuit_view_properties_menu_reverse_voltameter">Reverse</string>
+
+
+
+    <string name="circuit_view_properties_menu_wire_title">Wire :</string>
+    <string name="circuit_view_properties_menu_resistor_title">Resistor :</string>
+    <string name="circuit_view_properties_menu_battery_title">Battery :</string>
+    <string name="circuit_view_properties_menu_value">Assign Value</string>
+    <string name="circuit_view_properties_menu_remove">Remove Component</string>
+    <string name="circuit_view_properties_menu_add_remove_ammeter">Add/Remove Ammeter</string>
+    <string name="circuit_view_properties_menu_add_remove_ohmmeter">Add/Remove Ohmmeter</string>
+
+    <!--assign value dialog-->
+    <string name="assign_value_dialog_hint">Value</string>
+    <string name="assign_value_dialog_title">Input Value</string>
+    <string name="assign_value_dialog_create">Assign</string>
+    <string name="assign_value_dialog_cancel">Cancel</string>
+
+</resources>

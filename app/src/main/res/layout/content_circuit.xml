@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CircuitActivity"
+    tools:showIn="@layout/activity_circuit">
+    
+    <com.osamatech.circuitsolver.circuits.CircuitView
+        android:id="@+id/cv_circuit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/sv_components"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <HorizontalScrollView
+        android:id="@+id/sv_components"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/circuit_tools_background_color"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_wire"
+                style="@style/CircuitTool"
+                android:contentDescription="@string/circuit_tool_image_desc"
+                android:onClick="onToolSelected"
+                android:src="@drawable/ic_wire" />
+
+            <ImageView
+                android:id="@+id/iv_resistor"
+                style="@style/CircuitTool"
+                android:contentDescription="@string/circuit_tool_image_desc"
+                android:onClick="onToolSelected"
+                android:src="@drawable/ic_resistor" />
+
+            <ImageView
+                android:id="@+id/iv_battery"
+                style="@style/CircuitTool"
+                android:contentDescription="@string/circuit_tool_image_desc"
+                android:onClick="onToolSelected"
+                android:src="@drawable/ic_battery" />
+
+            <View style="@style/CircuitTool.Separator" />
+
+            <ImageView
+                android:id="@+id/iv_move_connector"
+                style="@style/CircuitTool"
+                android:contentDescription="@string/circuit_tool_image_desc"
+                android:onClick="onToolSelected"
+                android:src="@drawable/ic_move_connector" />
+
+            <ImageView
+                android:id="@+id/iv_move_component"
+                style="@style/CircuitTool"
+                android:contentDescription="@string/circuit_tool_image_desc"
+                android:onClick="onToolSelected"
+                android:src="@drawable/ic_move" />
+
+            <ImageView
+                android:id="@+id/iv_properties"
+                style="@style/CircuitTool"
+                android:contentDescription="@string/circuit_tool_image_desc"
+                android:onClick="onToolSelected"
+                android:src="@drawable/ic_properties" />
+
+            <View style="@style/CircuitTool.Separator" />
+
+            <ImageView
+                android:id="@+id/iv_navigate"
+                style="@style/CircuitTool"
+                android:contentDescription="@string/circuit_tool_image_desc"
+                android:onClick="onToolSelected"
+                android:src="@drawable/ic_hand" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</android.support.constraint.ConstraintLayout>
