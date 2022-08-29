@@ -2,4 +2,4 @@
 
 Android app to draw and solve simple electric circuits. Currently you can only draw the circuit, solving is not implemented.
 
-[Download here](https://fastupload.io/en/zOwVLlCfVBQn25o/file)
+[Download APK](https://fastupload.io/en/zOwVLlCfVBQn25o/file)
